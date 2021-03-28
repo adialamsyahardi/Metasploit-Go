@@ -31,12 +31,6 @@ EOF
 EOF
 )
     sleep 1
-   echo -e "${LIME} Proses Instalasi Package 3 ${ENDCOLOR}"
-      while read -r p ; do chmod +x $p ; done < <(cat << "EOF"
-        ./metasploit-latest-linux-x64-installer.run
-EOF
-)
-    sleep 1
   echo -e "${LIME} Proses Instalasi terakhir ${ENDCOLOR}"
   echo -e "${LIME} Ctrl+C Untuk membatalkan ${ENDCOLOR}"
   echo -e "${LIME} \n ${ENDCOLOR}"
