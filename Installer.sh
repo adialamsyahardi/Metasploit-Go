@@ -16,7 +16,7 @@ ENDCOLOR="\e[0m"
   echo $(cat metasploit-latest-linux-x64-installer.run.sha1)'  'metasploit-latest-linux-x64-installer.run > metasploit-latest-linux-x64-installer.run.sha1
 
   sudo -n true
-      test $? -eq 0 || exit 1 echo -e "${RED} Kamu punya hak root ? ${ENDCOLOR}"
+      test $? -eq 0 || exit 1 echo -e "${RED} pastiin kamu punya hak root ${ENDCOLOR}"
 
   echo -e "${LIME} Proses Instalasi Package 1 ${ENDCOLOR}"
       while read -r p ; do shasum $p ; done < <(cat << "EOF"
@@ -27,7 +27,7 @@ EOF
 
   echo -e "${LIME} Proses Instalasi Package 2 ${ENDCOLOR}"
       while read -r p ; do chmod +x $p ; done < <(cat << "EOF"
-           ./metasploit-latest-linux-x64-installer.run
+    ./metasploit-latest-linux-x64-installer.run
 EOF
 )
     sleep 1
@@ -37,4 +37,4 @@ EOF
   echo -e "${LIME} \n ${ENDCOLOR}"
     sleep 3
 
-      sudo ./metasploit-latest-linux-x64-installer.run
+    sudo ./metasploit-latest-linux-x64-installer.run
