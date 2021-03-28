@@ -1,7 +1,7 @@
 # Metasploit-Go
 Pengen Install Metasploit Framework di Linuxmu tapi kesusahan ?
 Kenalin Metasploit-Go yang mudahin cara installasi Metasploit Framework
-walaupun sisinya cuman sleep sama echo, seenggaknya mempermudah instalasi Metasploit
+_Walaupun isinya cuman sleep sama echo, seenggaknya mempermudah instalasi Metasploit_
 
 ## Cara Install ?
 Cukup Jalankan Perintah
