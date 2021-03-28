@@ -1,5 +1,5 @@
 # Metasploit-Go
-#### Pengen Install Metasploit Framework di Linuxmu tapi kesusahan ?
+#### Pengen Install Metasploit Framework di Distro Linux non Pentesting tapi kesusahan ?
 #### Kenalin Metasploit-Go !, yang mudahin installasi Metasploit Framework Di Desktop dan CLI mu
 _Walaupun isinya cuman sleep sama echo, seenggaknya mempermudah instalasi Metasploit_
 
