@@ -5,6 +5,7 @@ LIME="\e[32m"
 ENDCOLOR="\e[0m"
 
   echo -e "${LIME} #_Installer Metasploit VPS/Desktop, all Linux variant, and termux By FxFournn@adialamsyahardi.com_# ${ENDCOLOR}"
+  echo -e "${LIME} Github: https://github.com/adialamsyahardi ${ENDCOLOR}"
     sleep 2
     
     set -eu -o pipefail # Gagal saat Error , debug all lines
