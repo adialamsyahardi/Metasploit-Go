@@ -4,7 +4,7 @@ RED="\e[31m"
 LIME="\e[32m"
 ENDCOLOR="\e[0m"
 
-  echo -e "${LIME} #_Installer Metasploit VPS/Desktop, all Linux variant, and termux By FxFournn@adialamsyahardi.com_# ${ENDCOLOR}"
+  echo -e "${LIME} #_Metasploit Framework Installer for all Linux By FxFournn@adialamsyahardi.com_# ${ENDCOLOR}"
   echo -e "${LIME} Github: https://github.com/adialamsyahardi ${ENDCOLOR}"
     sleep 2
     
@@ -21,16 +21,17 @@ ENDCOLOR="\e[0m"
   echo -e "${LIME} Proses Instalasi Package 1 ${ENDCOLOR}"
       while read -r p ; do shasum $p ; done < <(cat << "EOF"
     metasploit-latest-linux-x64-installer.run.sha1
-    
 EOF
 )
     sleep 1
+
   echo -e "${LIME} Proses Instalasi Package 2 ${ENDCOLOR}"
       while read -r p ; do chmod +x $p ; done < <(cat << "EOF"
-        ./metasploit-latest-linux-x64-installer.run
+           ./metasploit-latest-linux-x64-installer.run
 EOF
 )
     sleep 1
+
   echo -e "${LIME} Proses Instalasi terakhir ${ENDCOLOR}"
   echo -e "${LIME} Ctrl+C Untuk membatalkan ${ENDCOLOR}"
   echo -e "${LIME} \n ${ENDCOLOR}"
