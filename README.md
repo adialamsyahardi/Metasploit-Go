@@ -1,5 +1,5 @@
 # Metasploit-Go
-Pengen Install Metasploit Framework di Desktop Linuxmu tapi kesusahan ?
+Pengen Install Metasploit Framework di Linuxmu tapi kesusahan ?
 
 ## Cara Install ?
 Cukup Jalankan Perintah
@@ -8,3 +8,4 @@ Cukup Jalankan Perintah
 bash Installer.sh
 ```
 _Note: Framework ini Work di semua Cli Linux Baik Desktop Linux, CLi VPS Linux, Bahkan Termux, MAMA TAU SENDIRI_
+_Note: For Pentesting & Educational Only, Selain dari itu diluar tanggung jawab @adialamsyahardi_
